@@ -19,7 +19,8 @@ module.exports = {
   output: {
     filename: 'module.js',
     publicPath: 'dist',
-    path: path.resolve('dist')
+    path: path.resolve('dist'),
+    devtoolModuleFilenameTemplate: '../src/[resource-path]'
   },
 
   resolve: {
